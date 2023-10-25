@@ -1,0 +1,51 @@
+ID,Title,Category,Genre,Description,Details,PopularityScore,UserRating,SalesScore
+1,"The Great Adventure","Movies & TV Shows","Movies / Drama / Historical Drama / 20th Century Period Pieces","Embark on a journey... resilience.","leadactor:Robert Downey Jr.|...parentalrating:PG",85,4.5,90
+2,"Mystic Skies","Movies & TV Shows","Movies / Sci-fi / Fantasy", "...a world unknown.","leadactor:Jennifer Lawrence|...parentalrating:PG-13",78,4.1,80
+3,"Twilight Streets","Movies & TV Shows","Movies / Action / Thriller","Fast cars and nighttime adventures...","leadactor:Chris Hemsworth|...parentalrating:R",70,3.9,70
+4,"Whispered Dreams","Movies & TV Shows","Movies / Romantic / Drama","Love and sacrifice in a turbulent era...","leadactor:Emma Stone|...parentalrating:PG",80,4.2,82
+5,"Winds of Fate","Movies & TV Shows","Movies / Drama / Adventure","A journey across continents...","leadactor:Tom Hardy|...parentalrating:PG-13",83,4.3,85
+6,"Starlit Paths","Movies & TV Shows","Movies / Sci-fi / Space","Exploring galaxies far away...","leadactor:Daisy Ridley|...parentalrating:PG",89,4.6,91
+7,"Nightmare's Edge","Movies & TV Shows","Movies / Horror / Thriller","Fear around every corner...","leadactor:James McAvoy|...parentalrating:R",74,3.8,76
+8,"Crimson Dawn","Movies & TV Shows","Movies / Action / Espionage","Secrets, spies, and suspense...","leadactor:Charlize Theron|...parentalrating:PG-13",86,4.4,88
+9,"Distant Horizons","Movies & TV Shows","Movies / Drama / Travel","Finding oneself in foreign lands...","leadactor:Ryan Gosling|...parentalrating:PG",82,4.2,84
+10,"Celestial Fate","Movies & TV Shows","Movies / Sci-fi / Adventure","Between planets and prophecies...","leadactor:Natalie Portman|...parentalrating:PG",88,4.5,90
+11,"Gotham's Shadows","Movies & TV Shows","Movies / Action / Superhero","A vigilante in a city of chaos...","leadactor:Christian Bale|...parentalrating:PG-13",95,4.7,97
+12,"Inferno's Embrace","Movies & TV Shows","Movies / Action / Fantasy","A clash of demons and warriors...","leadactor:Gerard Butler|...parentalrating:R",76,3.8,78
+13,"River's Melody","Movies & TV Shows","Movies / Drama / Romance","Two souls bound by the river's song...","leadactor:Julia Roberts|...parentalrating:PG",81,4.2,83
+14,"Guardians of Light","Movies & TV Shows","Movies / Fantasy / Epic","A realm threatened by darkness...","leadactor:Kit Harington|...parentalrating:PG-13",89,4.6,91
+15,"Frozen Abyss","Movies & TV Shows","Movies / Adventure / Mystery","Secrets buried deep within the ice...","leadactor:Nicole Kidman|...parentalrating:PG",80,4.1,82
+16,"Midnight Chase","Movies & TV Shows","Movies / Thriller / Crime","A detective's relentless pursuit...","leadactor:Denzel Washington|...parentalrating:R",85,4.4,87
+17,"Solar Winds","Movies & TV Shows","Movies / Sci-fi / Space Adventure","Voyage beyond our galaxy...","leadactor:Tessa Thompson|...parentalrating:PG",86,4.5,88
+18,"Haunted Past","Movies & TV Shows","Movies / Horror / Ghost","Memories that never fade...","leadactor:Sarah Paulson|...parentalrating:R",72,3.7,74
+19,"Deserted Kingdom","Movies & TV Shows","Movies / Drama / Historical","A ruler's lonely reign...","leadactor:Idris Elba|...parentalrating:PG-13",79,4.0,81
+20,"Lunar Eclipse","Movies & TV Shows","Movies / Romance / Fantasy","Love between light and shadow...","leadactor:Kristen Stewart|...parentalrating:PG",88,4.4,90
+21,"Emerald Eyes","Movies & TV Shows","Movies / Mystery / Thriller","A quest for a priceless artifact...","leadactor:Mark Ruffalo|...parentalrating:PG-13",84,4.3,86
+22,"Stealth Shadows","Movies & TV Shows","Movies / Action / Espionage","Missions undertaken in silence...","leadactor:Angelina Jolie|...parentalrating:R",82,4.1,84
+23,"Twisted Fate","Movies & TV Shows","Movies / Drama / Tragedy","Lives entangled by destiny...","leadactor:Joaquin Phoenix|...parentalrating:PG",87,4.3,89
+24,"Nebula Quest","Movies & TV Shows","Movies / Sci-fi / Adventure","Mysteries of the universe unveiled...","leadactor:Sigourney Weaver|...parentalrating:PG-13",90,4.6,92
+25,"Whispers in the Wind","Movies & TV Shows","Movies / Romantic / Historical","A love that defied time...","leadactor:Viola Davis|...parentalrating:PG",86,4.5,88
+26,"Cage of Despair","Movies & TV Shows","Movies / Horror / Psychological","Trapped in the mind's maze...","leadactor:Jared Leto|...parentalrating:R",74,3.9,76
+27,"Eagle's Flight","Movies & TV Shows","Movies / Action / War","Soaring above enemy lines...","leadactor:Morgan Freeman|...parentalrating:PG-13",80,4.0,82
+28,"Realm of Shadows","Movies & TV Shows","Movies / Fantasy / Dark Fantasy","Where light fears to tread...","leadactor:Cate Blanchett|...parentalrating:PG-13",88,4.4,90
+29,"Time's Labyrinth","Movies & TV Shows","Movies / Sci-fi / Time Travel","A journey through the ages...","leadactor:Christopher Walken|...parentalrating:PG",89,4.5,91
+30,"Broken Dreams","Movies & TV Shows","Movies / Drama / Modern Life","Reality's harsh truths...","leadactor:Sandra Bullock|...parentalrating:R",82,4.2,84
+31,"Frostbite","Movies & TV Shows","Movies / Adventure / Survival","Nature's cruel challenge...","leadactor:Hugh Jackman|...parentalrating:PG",81,4.1,83
+32,"Temple's Secret","Movies & TV Shows","Movies / Action / Archaeological","Mysteries of ancient civilizations...","leadactor:Brendan Fraser|...parentalrating:PG-13",83,4.3,85
+33,"Ocean's Whispers","Movies & TV Shows","Movies / Romantic / Beach","Love stories by the sea...","leadactor:Kate Winslet|...parentalrating:PG",87,4.4,89
+34,"Forest's Echo","Movies & TV Shows","Movies / Mystery / Supernatural","Nature holds its secrets close...","leadactor:Ewan McGregor|...parentalrating:PG",79,4.0,81
+35,"Fury's Path","Movies & TV Shows","Movies / Action / Martial Arts","A warrior's relentless journey...","leadactor:Jet Li|...parentalrating:R",86,4.4,88
+36,"Galaxy's Edge","Movies & TV Shows","Movies / Sci-fi / Space Opera","Politics and power in the stars...","leadactor:Carrie Fisher|...parentalrating:PG-13",88,4.5,90
+37,"Dunes of Time","Movies & TV Shows","Movies / Drama / Desert","Histories written in the sand...","leadactor:Oscar Isaac|...parentalrating:PG",85,4.3,87
+38,"Soul's Symphony","Movies & TV Shows","Movies / Musical / Drama","Life's stories told in melodies...","leadactor:Lady Gaga|...parentalrating:PG",91,4.6,93
+39,"Vampire's Kiss","Movies & TV Shows","Movies / Horror / Gothic","A love that's eternal...","leadactor:Gary Oldman|...parentalrating:R",79,3.9,81
+40,"Tales of Valor","Movies & TV Shows","Movies / War / Historical","Heroes of the battlefield...","leadactor:Brad Pitt|...parentalrating:R",90,4.6,92
+41,"Starship Odyssey","Movies & TV Shows","Movies / Sci-fi / Space Opera","A galactic saga of romance and rebellion...","leadactor:Zoe Saldana|...parentalrating:PG-13",91,4.7,93
+42,"Moonlit Sonata","Movies & TV Shows","Movies / Romantic / Musical","A love story told in songs...","leadactor:Ryan Reynolds|...parentalrating:PG",85,4.4,87
+43,"Echoes from the Abyss","Movies & TV Shows","Movies / Horror / Supernatural","When the dead speak...","leadactor:Jessica Chastain|...parentalrating:R",73,3.7,75
+44,"Wings of Freedom","Movies & TV Shows","Movies / Drama / Biographical","A true story of determination...","leadactor:Tom Hanks|...parentalrating:PG",93,4.8,95
+45,"Legacy of the Ancients","Movies & TV Shows","Movies / Adventure / Mythological","Quest for a legendary artifact...","leadactor:Harrison Ford|...parentalrating:PG-13",87,4.5,89
+46,"Neon Streets","Movies & TV Shows","Movies / Action / Cyberpunk","In a city of tech and turmoil...","leadactor:Keanu Reeves|...parentalrating:R",84,4.3,86
+47,"Desert Mirage","Movies & TV Shows","Movies / Drama / Historical","Secrets of the sand dunes...","leadactor:Cate Blanchett|...parentalrating:PG",82,4.2,84
+48,"Realm of Illusion","Movies & TV Shows","Movies / Fantasy / Magical","A kingdom where magic is real...","leadactor:Emma Watson|...parentalrating:PG",89,4.6,91
+49,"Silent Echoes","Movies & TV Shows","Movies / Mystery / Horror","Whispers from the past...","leadactor:Scarlett Johansson|...parentalrating:PG-13",62,4.0,65
+50,"Ocean's Dance","Movies & TV Shows","Movies / Drama / Romance","Love against the backdrop of the sea...","leadactor:Leonardo DiCaprio|...parentalrating:PG",95,4.8,98
