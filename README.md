@@ -1,4 +1,4 @@
-# Tiger
+# TigerLab
 
 A significant gap has arisen between general Large Language Models (LLMs) and the vector stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in efficient and factual domains, where their value lies not only in their generality but also in their specificity and uniqueness.
 
