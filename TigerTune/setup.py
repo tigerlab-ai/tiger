@@ -15,9 +15,9 @@ setup(
     packages=find_packages(where="tigertune"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tigerrag-ai/tiger",
-    author="TigerRag",
-    author_email="tigerrag.ai@gmail.com",
+    url="https://github.com/tigerlab-ai/tiger",
+    author="TigerLab",
+    author_email="tigerlab.ai@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

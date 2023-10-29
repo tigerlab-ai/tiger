@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tigerlab-ai/tiger",
     author="TigerLab",
-    author_email="tigerlabg.ai@gmail.com",
+    author_email="tigerlab.ai@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

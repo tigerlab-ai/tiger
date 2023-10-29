@@ -1,7 +1,7 @@
 # TigerTune
 A package used to fine tune a model.
 
-# Usage
+## Usage
 To perform training/fine-tuning and evaluation for LLM models on Google colab, please follow the instruction at notebooks/finetune_text_generation_model.ipynb and notebooks/finetune_text_classification_model.ipynb.
 
 To perform training/fine-tuning and evaluation for LLM models locally, please follow the following steps.
@@ -24,7 +24,7 @@ If you do not have a dataset, you can start with ours toy data in the tigertune/
 The setup for training and evaluation can be effortlessly executed provided you possess a jsonl file containing data entries with two fields: `Input`, `Output`. 
 
 ### Text Classification
-For training dataset, the input csv dataset is key'ed with "comment_text", while the output csv dataset is key'ed with "isToxic".
+For training dataset, the input csv dataset is key'ed with `comment_text`, while the output csv dataset is key'ed with `isToxic`.
 The same for validation dataset and test dataset.
 To note, we splitted the input and output into 2 separate files for training and validation dataset to make it easier to be consumed in code.
 
