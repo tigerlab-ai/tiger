@@ -8,7 +8,24 @@ This demo project uses embeddings-based retrieval (EBR), retrieval-augmented gen
 - Required libraries (listed in `requirements.txt`)
 
 ## Setup
+### Method 1: Install the Python Package 
+1. **Install the `tigerrag` python package**:
+```
+pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRag
+```
+2. **Use the functions in the `tigerrag` package**:
+```python
+from tigerrag.demo.movie_recs.utils import retrieve_with_gar_gpt3
 
+query = "Romantic comedy set in New York"
+openai_text_model = "text-davinci-003"
+k = 5
+relevant_movies = retrieve_with_gar_gpt3(query, openai_text_model, k)
+
+print(relevant_movies)
+```
+
+### Method 2: Git Clone the Repo
 1. **Clone the Repository**:
 
    ```bash
@@ -45,13 +62,13 @@ This demo project uses embeddings-based retrieval (EBR), retrieval-augmented gen
 
    Ensure the data files (`labels.csv`, `movies.csv`, and `queries.csv`) are present in the `demo` directory relative to the script.
 
-## Running the Script
+6. **Run Demo**:
 
-Navigate to the directory containing the script and execute:
+   Navigate to the directory containing the script and execute:
 
-```bash
-python movie_recs/demo.py
-```
+   ```bash
+   python movie_recs/demo.py
+   ```
 
 The script will:
 - Initialize the embeddings for movies using BERT.
