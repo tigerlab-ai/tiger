@@ -31,7 +31,7 @@ In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRa
 We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI customization and precision.
 
 ## ✨ Demo
-Find more demos at [TigerLab.ai](https://tigerlab.ai/)
+Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 
 ### Demo 1 - Enhanced E-Commerce Product Search, w/ RAG, GAR, EBR and Heuristic search
 TODO
