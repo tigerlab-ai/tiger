@@ -1,4 +1,4 @@
-# <img src="https://lilinwang.github.io/image/tigerLabLogo.png" height="24px" style="padding-top:4px"/>TigerLab - Open Source LLM toolkit
+# <img src="https://lilinwang.github.io/image/tigerLabLogo.png" height="24px" style="padding-top:4px"/>TigerLab - Open Source LLM Toolkit
 <br/>
 <div align="center">
     <img src="https://lilinwang.github.io/image/TigerLab.png" width="80%"  style="padding: 40px"/>
@@ -31,13 +31,15 @@ In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRa
 We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI customization and precision.
 
 ## ✨ Demo
-Find more demos at [TigerLab.ai](https://tigerlab.ai/)
+Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 
-### Demo 1 - Enhanced E-Commerce Product Search, w/ RAG, GAR, EBR, Heuristic search
+### Demo 1 - Enhanced E-Commerce Product Search, w/ RAG, GAR, EBR and Heuristic search
 TODO
 
-### Demo 2 - Fine tuning Llama2 and DistilBERT
-TODO
+### Demo 2 - Fine-tuning Llama2 and DistilBERT
+https://github.com/tigerlab-ai/tiger/assets/3810505/2e379c99-ef0c-485a-853e-ef41c4d1b775
+
+
 
 
 ## 🔬 Tech stack
@@ -46,7 +48,7 @@ TODO
 </div>
 
 - **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill search queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
-- **TigerTune**: Python SDK to finetune, inference, evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
+- **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
 - **TigerDA**: Data Augmentation Toolkit. Coming soon!
 
 ## 👨‍🚀 Prerequisites
@@ -55,7 +57,7 @@ Before you begin setting up this project, please ensure you have completed the f
 
 ### 0. Setup Tutorial
 
-- [Tutorial - YouTuBe](https://www.youtube.com/watch?v=xxx)
+- [Tutorial - YouTuBe](https://youtu.be/0v0Qe-cbvRs?si=ON-ni2yLeVpB0Yco)
 
 ### 1. LLM -  OpenAI API Token
 <details><summary>👇click me</summary>
@@ -77,19 +79,22 @@ To get your OpenAI API token, follow these steps:
    git clone https://github.com/tigerlab-ai/tiger.git
     ```
 - **Step 2**. Install TigerRag
-    -Install all python requirements
+    - Install all Python requirements
+      
     ```sh
+    cd tiger/TigerRag 
     pip install -r tigerrag/requirements.txt
     ```
     Demo:
     ```
-    python tigerrag/demo.py
+    cd tigerrag/demo/movie_recs
+    python demo.py
     ```
 - **Step 3**. Install TigerTune
-    -Install all python requirements
+    - Install all Python requirements
     ```sh
+    cd tiger/TigerTune
     pip install -r tigertune/requirements.txt
-    cd TigerTune
     pip install --upgrade -e .
     ```
     Demo:
@@ -102,7 +107,7 @@ To get your OpenAI API token, follow these steps:
 - [x] Launch v0.0.1
 - [ ] Release TigerDA
 - [ ] Release TigerArmor
-- [ ] Add additional model supprot in TigerTune
+- [ ] Add additional model support in TigerTune
 - [ ] VectorDB for TigerRag
 - [ ] Release TigerArmor for AI safety
 - [ ] WebApp

@@ -40,7 +40,8 @@ pip install -r tigerrag/requirements.txt
 ```
 Demo:
 ```
-python tigerrag/demo.py
+cd tigerrag/demo/movie_recs
+python demo.py
 ```
 
 **Usage**:
