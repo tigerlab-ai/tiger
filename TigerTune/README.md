@@ -11,6 +11,7 @@ To perform training/fine-tuning and evaluation for LLM models locally, please fo
 For development or research, you can clone and install the repo locally:
 ```shell
 git clone https://github.com/tigerlab-ai/tiger.git && cd TigerTune
+pip install -r tigertune/requirements.txt
 pip install --upgrade -e .
 ```
 This will install the TigerTune repo and all necessary dependencies.
@@ -35,7 +36,7 @@ You can leverage our example scripts directly if you'd like.
 ### Train TextGeneration LLM
 Fine tune `meta-llama/Llama-2-7b-chat-hf` and `distilbert-base-uncased` model.
 ```shell
-python3 tigertune/finetuning/llm/example.py 
+python3 tigertune/demo/example.py 
 ```
 
 ## Evaluation

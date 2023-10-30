@@ -100,7 +100,7 @@ To get your OpenAI API token, follow these steps:
     ```
     Demo:
     ```
-    python tigertune/finetuning/llm/example.py 
+    python tigertune/demo/example.py 
     ```
 
 

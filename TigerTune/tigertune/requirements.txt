@@ -1,0 +1,9 @@
+accelerate
+peft
+bitsandbytes
+transformers
+trl
+pyyaml 
+h5py 
+scikit-plot
+tensorflow

@@ -3,9 +3,9 @@ from tigertune.finetuning import TextClassificationTransformersFinetuneEngine
 
 
 def classification() -> None:
-    training_dataset = "/content/drive/MyDrive/tiger/TigerTune/tigertune/datasets/classification/training"
-    validation_dataset = "/content/drive/MyDrive/tiger/TigerTune/tigertune/datasets/classification/validation"
-    eval_dataset = "/content/drive/MyDrive/tiger/TigerTune/tigertune/datasets/classification/test_dataset.csv",
+    training_dataset = "tigertune/datasets/classification/training"
+    validation_dataset = "tigertune/datasets/classification/validation"
+    eval_dataset = "tigertune/datasets/classification/test_dataset.csv",
 
     finetune_engine = TextClassificationTransformersFinetuneEngine(
         base_model_id="distilbert-base-uncased",
@@ -17,7 +17,7 @@ def classification() -> None:
     )
     finetune_engine.evaluate(
         eval_dataset,
-        eval_output_path="/content/drive/MyDrive/exp_finetune_classification/eval_result")
+        eval_output_path="exp_finetune_classification/eval_result")
 
 
 def generation() -> None:
@@ -28,7 +28,7 @@ def generation() -> None:
         training_dataset,
         base_model_id="daryl149/llama-2-7b-chat-hf",
         eval_dataset=eval_dataset,
-        model_output_path="exp_finetune"
+        model_output_path="exp_finetune_generation"
     )
     finetune_engine.finetune()
     finetune_engine.inference(
