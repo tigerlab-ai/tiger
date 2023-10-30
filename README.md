@@ -33,7 +33,7 @@ We believe that our efforts will play a pivotal role in shaping the next phase o
 ## ✨ Demo
 Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 
-### Demo 1 - Enhanced Search Capabilities, w/ EBR, RAG and GAR
+### Demo 1 - Enhanced Search Capabilities w/ EBR, RAG and GAR
 https://github.com/tigerlab-ai/tiger/assets/4805931/e7c35117-269a-437d-99ab-10407a901cc5
 
 ### Demo 2 - Fine-tuning Llama2 and DistilBERT
