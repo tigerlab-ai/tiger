@@ -1,4 +1,4 @@
-# <img src="https://lilinwang.github.io/image/tigerLabLogo.png" height="24px" style="padding-top:4px"/>TigerLab - Open Source LLM toolkit
+# <img src="https://lilinwang.github.io/image/tigerLabLogo.png" height="24px" style="padding-top:4px"/>TigerLab - Open Source LLM Toolkit
 <br/>
 <div align="center">
     <img src="https://lilinwang.github.io/image/TigerLab.png" width="80%"  style="padding: 40px"/>
@@ -33,10 +33,10 @@ We believe that our efforts will play a pivotal role in shaping the next phase o
 ## ✨ Demo
 Find more demos at [TigerLab.ai](https://tigerlab.ai/)
 
-### Demo 1 - Enhanced E-Commerce Product Search, w/ RAG, GAR, EBR, Heuristic search
+### Demo 1 - Enhanced E-Commerce Product Search, w/ RAG, GAR, EBR and Heuristic search
 TODO
 
-### Demo 2 - Fine tuning Llama2 and DistilBERT
+### Demo 2 - Fine-tuning Llama2 and DistilBERT
 TODO
 
 
@@ -46,7 +46,7 @@ TODO
 </div>
 
 - **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill search queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
-- **TigerTune**: Python SDK to finetune, inference, evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
+- **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
 - **TigerDA**: Data Augmentation Toolkit. Coming soon!
 
 ## 👨‍🚀 Prerequisites
@@ -77,7 +77,7 @@ To get your OpenAI API token, follow these steps:
    git clone https://github.com/tigerlab-ai/tiger.git
     ```
 - **Step 2**. Install TigerRag
-    -Install all python requirements
+    -Install all Python requirements
     ```sh
     pip install -r tigerrag/requirements.txt
     ```
@@ -86,7 +86,7 @@ To get your OpenAI API token, follow these steps:
     python tigerrag/demo.py
     ```
 - **Step 3**. Install TigerTune
-    -Install all python requirements
+    -Install all Python requirements
     ```sh
     pip install -r tigertune/requirements.txt
     cd TigerTune
@@ -102,7 +102,7 @@ To get your OpenAI API token, follow these steps:
 - [x] Launch v0.0.1
 - [ ] Release TigerDA
 - [ ] Release TigerArmor
-- [ ] Add additional model supprot in TigerTune
+- [ ] Add additional model support in TigerTune
 - [ ] VectorDB for TigerRag
 - [ ] Release TigerArmor for AI safety
 - [ ] WebApp
