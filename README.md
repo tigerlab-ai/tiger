@@ -37,7 +37,9 @@ Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 TODO
 
 ### Demo 2 - Fine-tuning Llama2 and DistilBERT
-TODO
+https://github.com/tigerlab-ai/tiger/assets/3810505/2e379c99-ef0c-485a-853e-ef41c4d1b775
+
+
 
 
 ## 🔬 Tech stack
@@ -55,7 +57,7 @@ Before you begin setting up this project, please ensure you have completed the f
 
 ### 0. Setup Tutorial
 
-- [Tutorial - YouTuBe](https://www.youtube.com/watch?v=xxx)
+- [Tutorial - YouTuBe](https://youtu.be/0v0Qe-cbvRs?si=ON-ni2yLeVpB0Yco)
 
 ### 1. LLM -  OpenAI API Token
 <details><summary>👇click me</summary>
