@@ -58,7 +58,7 @@ Before you begin setting up this project, please ensure you have completed the f
 
 ### 0. Setup Tutorial
 
-- [Tutorial - YouTuBe](https://youtu.be/0v0Qe-cbvRs?si=ON-ni2yLeVpB0Yco)
+- [Tutorial - YouTuBe](https://youtu.be/fztXswkYz7c)
 
 ### 1. LLM -  OpenAI API Token
 <details><summary>👇click me</summary>
