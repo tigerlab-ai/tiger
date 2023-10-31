@@ -20,7 +20,7 @@
     <img alt="GitHub" src="https://img.shields.io/github/last-commit/tigerlab-ai/tiger/main?style=for-the-badge" height="20">
     </a>
     <a href="https://github.com/tigerlab-ai/tiger/blob/main/README.md" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green&style=for-the-badge" alt="License" height="20">
+    <img src="https://img.shields.io/static/v1?label=license&message=Apache License 2.0&color=green&style=for-the-badge" alt="License" height="20">
     </a>
 </div>
 
