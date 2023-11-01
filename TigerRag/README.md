@@ -48,8 +48,4 @@ python demo.py
 - rag
 - gar
 
-**Contribution Guidelines**:
-- Ensure all PRs have corresponding tests.
-- Document any new functions or methods.
 
-**License**: 
