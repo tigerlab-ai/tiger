@@ -41,7 +41,6 @@ https://github.com/tigerlab-ai/tiger/assets/4805931/e7c35117-269a-437d-99ab-1040
 ### Demo 2 - Fine-tuning Llama2 and DistilBERT
 [Demo 2 - Youtube](https://youtu.be/0v0Qe-cbvRs)
 
-https://github.com/tigerlab-ai/tiger/assets/3810505/2e379c99-ef0c-485a-853e-ef41c4d1b775
 
 
 
