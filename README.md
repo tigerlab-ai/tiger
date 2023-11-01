@@ -100,8 +100,10 @@ To get your OpenAI API token, follow these steps:
     ```
     Demo:
     ```
-    python tigertune/demo/example.py 
+    python tigertune/examples/classification_example.py 
+    python tigertune/examples/generation_example.py 
     ```
+    CUDA GPU is needed to run generation_example.py 
 
 
 ## 📍 Roadmap

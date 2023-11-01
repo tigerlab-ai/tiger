@@ -1,4 +1,3 @@
-from tigertune.finetuning import TextGenerationTransformersFinetuneEngine
 from tigertune.finetuning import TextClassificationTransformersFinetuneEngine
 
 
@@ -11,8 +10,8 @@ def classification() -> None:
         base_model_id="distilbert-base-uncased",
     )
     finetune_engine.finetune(
-        training_dataset,
-        validation_dataset,
+        training_dataset=training_dataset,
+        validation_dataset=validation_dataset,
         model_output_path="exp_finetune_classification"
     )
     finetune_engine.evaluate(
@@ -20,24 +19,7 @@ def classification() -> None:
         eval_output_path="exp_finetune_classification/eval_result")
 
 
-def generation() -> None:
-    training_dataset = "tigertune/datasets/generation/toy_data_train.jsonl"
-    eval_dataset = "tigertune/datasets/generation/toy_data_evaluation.jsonl"
-
-    finetune_engine = TextGenerationTransformersFinetuneEngine(
-        training_dataset,
-        base_model_id="daryl149/llama-2-7b-chat-hf",
-        eval_dataset=eval_dataset,
-        model_output_path="exp_finetune_generation"
-    )
-    finetune_engine.finetune()
-    finetune_engine.inference(
-        prompt="What is RAG?")
-
-
 def main() -> None:
-    print("Running TextGenerationTransformersFinetuneEngine demo:")
-    generation()
     print("Running TextClassificationTransformersFinetuneEngine demo:")
     classification()
 

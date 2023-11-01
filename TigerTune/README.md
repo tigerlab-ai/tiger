@@ -22,25 +22,33 @@ On an non-intel Mac you may need to downgrade `transformers` library: `pip insta
 If you do not have a dataset, you can start with ours toy data in the tigertune/datasets folder.
 
 ### Text Generation
-The setup for training and evaluation can be effortlessly executed provided you possess a jsonl file containing data entries with two fields: `Input`, `Output`. 
+The setup for training and evaluation can be effortlessly executed provided you possess a jsonl file containing data entries with two fields: `Input`, `Output`.
 
 ### Text Classification
 For training dataset, the input csv dataset is key'ed with `comment_text`, while the output csv dataset is key'ed with `isToxic`.
 The same for validation dataset and test dataset.
+You can use the training, validation, and evaluation datasets directly in tugertune/datasets/classification. 
 To note, we splitted the input and output into 2 separate files for training and validation dataset to make it easier to be consumed in code.
 
 ## Training
 
-You can leverage our example scripts directly if you'd like.
+You can leverage our example scripts directly if you'd like. 
+To note, a CUDA GPU is needed to run the Text Generation example.
 
-### Train TextGeneration LLM
-Fine tune `meta-llama/Llama-2-7b-chat-hf` and `distilbert-base-uncased` model.
+### Train Text Generation LLM
+Fine tune the default `meta-llama/Llama-2-7b-chat-hf` model.
 ```shell
-python3 tigertune/demo/example.py 
+python3 tigertune/examples/generation_example.py 
+```
+
+### Train Text Classification LLM
+Fine tune the default `distilbert-base-uncased` model.
+```shell
+python3 tigertune/examples/classification_example.py  
 ```
 
 ## Evaluation
-Once instantialized, you can run inference on the fine tuned text generation model
+Once instantialized, you can run inference on the fine tuned text generation model.
 ```shell
 finetune_engine.inference(
         prompt="What is RAG?")
