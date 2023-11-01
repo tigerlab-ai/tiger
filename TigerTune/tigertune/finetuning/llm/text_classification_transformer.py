@@ -41,6 +41,7 @@ class TextClassificationTransformersFinetuneEngine(BaseLLMFinetuneEngine):
     def __init__(
         self,
         base_model_id: str = 'distilbert-base-uncased',
+        notebook_mode: bool = False,
         hyperparameters: Optional[Dict[str, Union[str, int, float]]] = None,
     ) -> None:
         """Init params."""
@@ -53,7 +54,8 @@ class TextClassificationTransformersFinetuneEngine(BaseLLMFinetuneEngine):
         )
 
         pd.plotting.register_matplotlib_converters()
-        get_ipython().run_line_magic('matplotlib', 'inline')
+        if notebook_mode:
+            get_ipython().run_line_magic('matplotlib', 'inline')
 
         # To show full text (not truncated)
         pd.set_option('display.max_colwidth', None)
@@ -186,7 +188,7 @@ class TextClassificationTransformersFinetuneEngine(BaseLLMFinetuneEngine):
             [input_ids_layer, input_attention_layer], output)
 
         # Compile the model
-        model.compile(tf.keras.optimizers.Adam(lr=self.params['learning_rate']),
+        model.compile(tf.keras.optimizers.Adam(learning_rate=self.params['learning_rate']),
                       loss=self.__focal_loss(),
                       metrics=['accuracy'])
 
