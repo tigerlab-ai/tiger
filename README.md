@@ -33,7 +33,7 @@ We believe that our efforts will play a pivotal role in shaping the next phase o
 ## ✨ Demo
 Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 
-### Demo 1 - Enhanced Search Capabilities w/ EBR, RAG and GAR
+### Demo 1 - Enhanced Retrieval Capabilities w/ EBR, RAG and GAR
 [Demo 1 - Youtube](https://youtu.be/gi8P1i0hm70)
 
 https://github.com/tigerlab-ai/tiger/assets/4805931/e7c35117-269a-437d-99ab-10407a901cc5
@@ -48,7 +48,7 @@ https://github.com/tigerlab-ai/tiger/assets/148816206/4835b876-77e2-4483-9773-ea
 ## 🔬 Tech stack
 <img width="2046" alt="Untitled-2" src="https://github.com/tigerlab-ai/tiger/assets/148816206/6616f960-1dc0-4e70-b44e-b34e20730152">
 
-- **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill search queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
+- **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
 - **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
 - **TigerDA**: Data Augmentation Toolkit. Coming soon!
 - **TigerArmor** AI safety Toolkit. Coming soon!
