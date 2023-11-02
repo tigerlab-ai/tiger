@@ -75,7 +75,6 @@ class TextClassificationTransformersFinetuneEngine(BaseLLMFinetuneEngine):
                        'random_state': 42
                        }
         if hyperparameters is not None:
-            print("wll")
             self.params.update(hyperparameters)
 
         ################################################################################
