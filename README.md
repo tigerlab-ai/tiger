@@ -46,9 +46,7 @@ https://github.com/tigerlab-ai/tiger/assets/148816206/4835b876-77e2-4483-9773-ea
 
 
 ## 🔬 Tech stack
-<div align="center">
-    <img src="https://lilinwang.github.io/image/diagram.png" width="100%"  style="padding: 20px"/>
-</div>
+![Uploading Untitled-2.png…]()
 
 - **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill search queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
 - **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
