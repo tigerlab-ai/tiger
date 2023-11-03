@@ -1,5 +1,7 @@
 # Contribution Guide
-Thanks for helping out! We're excited for your issues and pull requests!
+Thanks for helping out! We're excited for your issues and pull requests! 
+
+In addition to the mentioned roadmap, we also maintain a backlog at https://github.com/tigerlab-ai/tiger/issues.
 
 # Setup
 1. Fork the TigerLab repository
