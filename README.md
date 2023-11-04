@@ -118,6 +118,8 @@ To get your OpenAI API token, follow these steps:
 ## 🫶 Contribute to TigerLab
 Please check out our [Contribution Guide](CONTRIBUTING.md)!
 
+For bug fixes and feature requests, please file a Github issue.
+
 In addition to the mentioned roadmap, we also maintain a backlog at https://github.com/tigerlab-ai/tiger/issues.
 
 ## 💪 Contributors
