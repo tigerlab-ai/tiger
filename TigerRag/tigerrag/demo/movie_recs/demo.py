@@ -6,6 +6,21 @@ from transformers import BertTokenizer, BertModel
 import faiss
 import openai
 import os
+from transformers import BertTokenizer, BertModel, RobertaTokenizer, RobertaModel, XLNetTokenizer, XLNetModel
+
+def initialize_model(model_name):
+    if model_name == "bert":
+        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        model = BertModel.from_pretrained('bert-base-uncased')
+    elif model_name == "roberta":
+        tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+        model = RobertaModel.from_pretrained('roberta-base')
+    elif model_name == "xlnet":
+        tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
+        model = XLNetModel.from_pretrained('xlnet-base-cased')
+    else:
+        raise ValueError("Unsupported model name!")
+    return tokenizer, model
 
 # openai.api_key = ""
 # openai_api_key = os.environ.get('OPENAI_API_KEY')
@@ -18,8 +33,7 @@ movies_df = pd.read_csv('movies.csv')
 queries_df = pd.read_csv('queries.csv')
 
 # Initialize BERT tokenizer and model
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertModel.from_pretrained('bert-base-uncased')
+tokenizer, model = initialize_model("bert")
 
 def get_embedding(text):
     """Returns the BERT embedding for a given text."""
