@@ -11,7 +11,6 @@ To perform training/fine-tuning and evaluation for LLM models locally, please fo
 For development or research, you can clone and install the repo locally:
 ```shell
 git clone https://github.com/tigerlab-ai/tiger.git && cd TigerTune
-pip install -r tigertune/requirements.txt
 pip install --upgrade -e .
 ```
 This will install the TigerTune repo and all necessary dependencies.
