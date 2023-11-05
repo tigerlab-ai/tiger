@@ -34,6 +34,8 @@ To note, we splitted the input and output into 2 separate files for training and
 You can leverage our example scripts directly if you'd like. 
 To note, a CUDA GPU is needed to run the Text Generation example.
 
+If you don't have a CUDA GPU connected, you can leverage our notebooks in [notebooks/](notebooks/).
+
 ### Train Text Generation LLM
 Fine tune the default `meta-llama/Llama-2-7b-chat-hf` model.
 ```shell
