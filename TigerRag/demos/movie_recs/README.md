@@ -49,10 +49,12 @@ pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRag
 
 5. **Run Demo**:
 
-   Navigate to the directory containing the script and execute (example for EBR):
+   Navigate to the directory containing the script and execute (example for EBR, RAG, GAR):
 
    ```bash
    python movie_recs/demo_ebr.py
+   python movie_recs/demo_rag.py
+   python movie_recs/demo_gar.py
    ```
 
 Refer to the demo files for explanation of what each demo does
