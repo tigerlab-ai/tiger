@@ -53,7 +53,7 @@ pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRag
 
    Example: Movie Recommendations Example (EBR, RAG, GAR): 
    ```bash
-   cd movie_recs
+   cd demos/movie_recs
    python demo_ebr.py
    python demo_rag.py
    python demo_gar.py
