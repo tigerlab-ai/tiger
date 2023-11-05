@@ -13,7 +13,7 @@ This demo project uses embeddings-based retrieval (EBR), retrieval-augmented gen
 
    ```bash
    git clone git@github.com:tigerrag-ai/tiger.git
-   cd TigerRag/tigerrag
+   cd TigerRag/demos/langchin
    ```
 
 2. **Set Up a Virtual Environment** (optional but recommended):
