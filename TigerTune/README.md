@@ -37,13 +37,13 @@ To note, a CUDA GPU is needed to run the Text Generation example.
 ### Train Text Generation LLM
 Fine tune the default `meta-llama/Llama-2-7b-chat-hf` model.
 ```shell
-python3 tigertune/examples/generation_example.py 
+python3 examples/generation_example.py 
 ```
 
 ### Train Text Classification LLM
 Fine tune the default `distilbert-base-uncased` model.
 ```shell
-python3 tigertune/examples/classification_example.py  
+python3 examples/classification_example.py  
 ```
 
 ## Evaluation

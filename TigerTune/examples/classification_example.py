@@ -2,9 +2,9 @@ from tigertune.finetuning import TextClassificationTransformersFinetuneEngine
 
 
 def classification() -> None:
-    training_dataset = "tigertune/datasets/classification/training"
-    validation_dataset = "tigertune/datasets/classification/validation"
-    eval_dataset = "tigertune/datasets/classification/test_dataset.csv",
+    training_dataset = "datasets/classification/training"
+    validation_dataset = "datasets/classification/validation"
+    eval_dataset = "datasets/classification/test_dataset.csv",
 
     finetune_engine = TextClassificationTransformersFinetuneEngine(
         base_model_id="distilbert-base-uncased",
