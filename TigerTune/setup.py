@@ -18,9 +18,9 @@ setup(
     url="https://github.com/tigerlab-ai/tiger",
     author="TigerLab",
     author_email="tigerlab.ai@gmail.com",
-    license="MIT",
+    license="Apache-2.0",
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
