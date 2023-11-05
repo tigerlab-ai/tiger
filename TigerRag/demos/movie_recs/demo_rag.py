@@ -1,7 +1,7 @@
-from tigerrag.rag.base.loaders import TigerRAGDataFrameLoader
-from tigerrag.rag.base.models import EmbeddingModel, TigerRAGEmbeddingModel
-from tigerrag.rag.ebr.similarity_search import FaissFlatL2Search
-from tigerrag.rag.rag.retrieval_augmenters import OpenAIRetrievalAugmenter
+from tigerrag.base.loaders import TigerRAGDataFrameLoader
+from tigerrag.base.models import EmbeddingModel, TigerRAGEmbeddingModel
+from tigerrag.ebr.similarity_search import FaissFlatL2Search
+from tigerrag.rag.retrieval_augmenters import OpenAIRetrievalAugmenter
 
 """
 This demo loads movie-related data from CSV files, uses BERT embeddings to generate movie descriptions, 

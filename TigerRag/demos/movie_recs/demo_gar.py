@@ -1,7 +1,7 @@
-from tigerrag.rag.base.loaders import TigerRAGDataFrameLoader
-from tigerrag.rag.base.models import EmbeddingModel, TigerRAGEmbeddingModel
-from tigerrag.rag.ebr.similarity_search import FaissFlatL2Search
-from tigerrag.rag.gar.query_augmenters import OpenAIQueryAugmenter
+from tigerrag.base.loaders import TigerRAGDataFrameLoader
+from tigerrag.base.models import EmbeddingModel, TigerRAGEmbeddingModel
+from tigerrag.ebr.similarity_search import FaissFlatL2Search
+from tigerrag.gar.query_augmenters import OpenAIQueryAugmenter
 
 from demo_utils import calculate_single_recall
 
