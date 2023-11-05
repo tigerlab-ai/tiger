@@ -47,6 +47,7 @@ This demo project uses embeddings-based retrieval (EBR), retrieval-augmented gen
 Navigate to the directory containing the script and execute:
 
 ```bash
+python demo.py -number_of_run 1
 python demo.py
 ```
 
