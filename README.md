@@ -84,7 +84,7 @@ To get your OpenAI API token, follow these steps:
     - Install all Python requirements
       
     ```sh
-    cd TigerRag
+    cd tiger/TigerRag
     pip install .
     ```
     Demo:
