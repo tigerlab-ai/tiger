@@ -9,7 +9,7 @@ In addition to the mentioned roadmap, we also maintain a backlog at https://gith
 3. Set the upstream remote to the original TigerLab repository
 ```bash
 git clone https://github.com/tigerlab-ai/tiger.git
-cd TigerLab
+cd tiger
 git remote add upstream https://github.com/tigerlab-ai/tiger.git
 ```
 4. Install `pre-commit` and set up the `pre-commit` hooks for the repo:
