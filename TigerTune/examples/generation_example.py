@@ -4,8 +4,8 @@ from tigertune.finetuning import TextGenerationTransformersFinetuneEngine
 
 
 def generation() -> None:
-    training_dataset = "tigertune/datasets/generation/toy_data_train.jsonl"
-    eval_dataset = "tigertune/datasets/generation/toy_data_evaluation.jsonl"
+    training_dataset = "datasets/generation/toy_data_train.jsonl"
+    eval_dataset = "datasets/generation/toy_data_evaluation.jsonl"
 
     finetune_engine = TextGenerationTransformersFinetuneEngine(
         training_dataset=training_dataset,

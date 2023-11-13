@@ -11,7 +11,6 @@ To perform training/fine-tuning and evaluation for LLM models locally, please fo
 For development or research, you can clone and install the repo locally:
 ```shell
 git clone https://github.com/tigerlab-ai/tiger.git && cd TigerTune
-pip install -r tigertune/requirements.txt
 pip install --upgrade -e .
 ```
 This will install the TigerTune repo and all necessary dependencies.
@@ -35,16 +34,18 @@ To note, we splitted the input and output into 2 separate files for training and
 You can leverage our example scripts directly if you'd like. 
 To note, a CUDA GPU is needed to run the Text Generation example.
 
+If you don't have a CUDA GPU connected, you can leverage our notebooks in [notebooks/](notebooks/).
+
 ### Train Text Generation LLM
 Fine tune the default `meta-llama/Llama-2-7b-chat-hf` model.
 ```shell
-python3 tigertune/examples/generation_example.py 
+python3 examples/generation_example.py 
 ```
 
 ### Train Text Classification LLM
 Fine tune the default `distilbert-base-uncased` model.
 ```shell
-python3 tigertune/examples/classification_example.py  
+python3 examples/classification_example.py  
 ```
 
 ## Evaluation

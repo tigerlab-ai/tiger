@@ -13,7 +13,10 @@ TigerRAG Models
 
 This module serves as a repository for supported Models 
 Example Usage:
-    
+    >>> from tigerrag.rag.base.models import TigerRAGEmbeddingModel
+    >>> trag_bert_model = TigerRAGEmbeddingModel(EmbeddingModel.BERT)
+    >>> query_embedding = trag_bert_model.get_embedding_from_text("query_text")
+    >>> df_series_embeddings = trag_bert_model.get_embedding_from_series("df_series")
     
 """
 
@@ -40,7 +43,8 @@ class TigerRAGEmbeddingModel:
 
     def get_embedding_from_text(self, text: str) -> npt.NDArray:
         """Returns the BERT embedding for a given text."""
-        tokens = self.tokenizer(text, return_tensors="pt", padding="max_length", max_length=100, truncation=True)
+        tokens = self.tokenizer(
+            text, return_tensors="pt", padding="max_length", max_length=100, truncation=True)
         with torch.no_grad():
             embeddings = self.model(**tokens).last_hidden_state
         return embeddings.mean(1).numpy()

@@ -84,7 +84,7 @@ To get your OpenAI API token, follow these steps:
     - Install all Python requirements
       
     ```sh
-    cd TigerRag/tigerrag
+    cd tiger/TigerRag
     pip install .
     ```
     Demo:
@@ -98,15 +98,14 @@ To get your OpenAI API token, follow these steps:
     - Install all Python requirements
     ```sh
     cd tiger/TigerTune
-    pip install -r tigertune/requirements.txt
     pip install --upgrade -e .
     ```
     Demo:
     ```
-    python tigertune/examples/classification_example.py 
-    python tigertune/examples/generation_example.py 
+    python examples/classification_example.py 
+    python examples/generation_example.py 
     ```
-    CUDA GPU is needed to run generation_example.py 
+    CUDA GPU is needed to run generation_example.py. If you don't have a CUDA GPU connected, you can leverage our notebooks in [notebooks/](TigerTune/notebooks/).
 
 
 ## 📍 Roadmap
