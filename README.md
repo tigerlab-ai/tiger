@@ -26,7 +26,7 @@
 
 A significant gap has arisen between general Large Language Models (LLMs) and the data stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in efficient and factual domains, where their value lies not only in their generality but also in their specificity and uniqueness.
 
-In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
+In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRAG, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
 
 We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI customization and precision.
 
@@ -48,7 +48,7 @@ https://github.com/tigerlab-ai/tiger/assets/148816206/4835b876-77e2-4483-9773-ea
 ## 🔬 Tech stack
 <img width="2046" alt="Untitled-2" src="https://github.com/tigerlab-ai/tiger/assets/148816206/6616f960-1dc0-4e70-b44e-b34e20730152">
 
-- **TigerRag**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
+- **TigerRAG**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
 - **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
 - **TigerDA**: Data Augmentation Toolkit. Coming soon!
 - **TigerArmor** AI safety Toolkit. Coming soon!
@@ -80,11 +80,11 @@ To get your OpenAI API token, follow these steps:
    ```sh
    git clone https://github.com/tigerlab-ai/tiger.git
     ```
-- **Step 2**. Install TigerRag
+- **Step 2**. Install TigerRAG
     - Install all Python requirements
       
     ```sh
-    cd tiger/TigerRag
+    cd tiger/TigerRAG
     pip install .
     ```
     Demo:
@@ -113,7 +113,7 @@ To get your OpenAI API token, follow these steps:
 - [ ] Release TigerDA
 - [ ] Release TigerArmor
 - [ ] Add additional model support in TigerTune
-- [ ] VectorDB for TigerRag
+- [ ] VectorDB for TigerRAG
 - [ ] WebApp
 
 ## 🫶 Contribute to TigerLab

@@ -13,7 +13,7 @@ This demo project uses embeddings-based retrieval (EBR), retrieval-augmented gen
 1. **Install the `tigerrag` python package**:
 
 ```
-pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRag
+pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRAG
 ```
 
 ### Method 2: Git Clone the Repo
@@ -29,7 +29,7 @@ pip install git+https://github.com/tigerlab-ai/tiger.git#subdirectory=TigerRag
 
    ```bash
    git clone git@github.com:tigerrag-ai/tiger.git
-   cd TigerRag/tigerrag
+   cd TigerRAG/tigerrag
    pip install .
    ```
 

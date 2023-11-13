@@ -1,7 +1,7 @@
 # TigerCommons
 
 ## Introduction
-`TigerCommons` is the foundational backbone of the `tigerlab-ai/tiger` project, providing a collection of shared resources integral to the functionalities of `TigerArmor`, `TigerDA`, `TigerRag`, and `TigerTune`. This component streamlines code management by centralizing common models, utilities, and constants, thus facilitating code reuse and maintenance across the various modules.
+`TigerCommons` is the foundational backbone of the `tigerlab-ai/tiger` project, providing a collection of shared resources integral to the functionalities of `TigerArmor`, `TigerDA`, `TigerRAG`, and `TigerTune`. This component streamlines code management by centralizing common models, utilities, and constants, thus facilitating code reuse and maintenance across the various modules.
 
 ## Features
 - **Shared Models**: Central repository of models and data structures used across different modules.
