@@ -136,7 +136,7 @@ In addition to the mentioned roadmap, we also maintain a backlog at https://gith
 @misc{TigerLabAI_2023,
   title={TigerLab AI Repository},
   author={TigerLab AI},
-  howpublished={GitHub. Available online: \url{https://github.com/tigerlab-ai/tiger}},
+  howpublished={GitHub. Available online: https://github.com/tigerlab-ai/tiger},
   year={2023}
 }
 ```
