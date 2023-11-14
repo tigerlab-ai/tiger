@@ -15,7 +15,7 @@ To integrate `TigerCommons` into your project, follow these steps:
 # Clone the main repository
 git clone https://github.com/tigerlab-ai/tiger.git
 # Navigate to the TigerCommons directory
-cd tiger/TigerCommons
+cd tiger/Commons
 
 
 
