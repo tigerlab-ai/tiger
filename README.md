@@ -24,11 +24,11 @@
     </a>
 </div>
 
-A significant gap has arisen between general Large Language Models (LLMs) and the data stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in efficient and factual domains, where their value lies not only in their generality but also in their specificity and uniqueness.
+A significant gap has arisen between general Large Language Models (LLMs) and the data stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in factual and safety domains, where their value lies not only in their generality but also in their specificity and uniqueness.
 
-In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRAG, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
+In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRAG, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create trustworthy AI models and language applications tailored to their specific needs.
 
-We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI customization and precision.
+We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI precision and safety.
 
 ## ✨ Demo
 Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
@@ -49,8 +49,8 @@ https://github.com/tigerlab-ai/tiger/assets/148816206/4835b876-77e2-4483-9773-ea
 <img width="2046" alt="Untitled-2" src="https://github.com/tigerlab-ai/tiger/assets/148816206/6616f960-1dc0-4e70-b44e-b34e20730152">
 
 - **TigerRAG**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
-- **TigerTune**: Python SDK to finetune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo finetuned `Llama2` and `DistilBERT`.
-- **TigerDA**: Data Augmentation Toolkit. Coming soon!
+- **TigerTune**: Python SDK to fine-tune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo fine-tuned `Llama2` and `DistilBERT`.
+- **TigerDA**: Data Augmentation Toolkit. The generation-based augmenter supports data augmentation with fine-tuned (instruction-based) `GPT2`. `Top-k and Top-p Sampling` has been used for decoding. Perturbation-based augmenter coming soon!
 - **TigerArmor** AI safety Toolkit. Coming soon!
 
 ## 👨‍🚀 Prerequisites
@@ -106,6 +106,17 @@ To get your OpenAI API token, follow these steps:
     python examples/generation_example.py 
     ```
     CUDA GPU is needed to run generation_example.py. If you don't have a CUDA GPU connected, you can leverage our notebooks in [notebooks/](TigerTune/notebooks/).
+
+- **Step 4**. Install TigerDA
+    - Install all Python requirements
+    ```sh
+    cd tiger/TigerDA
+    pip install --upgrade -e .
+    ```
+    Demo:
+    ```
+    python examples/text_generation_augmenter_example.py 
+    ```
 
 
 ## 📍 Roadmap
