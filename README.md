@@ -130,3 +130,14 @@ In addition to the mentioned roadmap, we also maintain a backlog at https://gith
 
 ## 🎲 Community
 - Join us on [Discord](https://discord.gg/GnwH2STv)
+
+## 📝 Citation
+```
+@misc{TigerLabAI_2023,
+  title={TigerLab AI Repository},
+  author={TigerLab AI},
+  howpublished={GitHub. Available online: \url{https://github.com/tigerlab-ai/tiger}},
+  year={2023}
+}
+```
+
