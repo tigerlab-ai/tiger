@@ -80,7 +80,7 @@ The comparison reveals significant differences in the models' ability to meet or
 ## Findings 
 
 ### Model Comparisons
-Our evaluation presents several notable insights into the performance of AI moderation models:
+Our evaluation presents several notable insights into the AI safety performance of LLM chat models:
 
 1. **Performance Gap:** Open-source models such as Llama 2 and Mistral demonstrate a higher incidence of safety-related issues when compared to GPT models. This underscores the advanced capabilities of GPT models in identifying and moderating complex content.
 
