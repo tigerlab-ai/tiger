@@ -30,6 +30,10 @@ In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRA
 
 We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI precision and safety.
 
+## 🙌 TigerLab AI Safety Report
+[<img width="1436" alt="TigerLab AI Safety Report" src="https://github.com/tigerlab-ai/tiger/assets/148816206/81dab0f5-6b86-4d93-aea1-8e2882bd39d2">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
+
+
 ## ✨ Demo
 Find more demos at [TigerLab.ai](https://www.tigerlab.ai/)
 
