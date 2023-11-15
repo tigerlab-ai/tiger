@@ -3,7 +3,10 @@ This project evaluates the performance of various LLM Chat models, with a focus 
 
 ## Data Sources and Methodology
 ### Description of Datasets
-The datasets for this evaluation were obtained from [Hugging Face Datasets](https://huggingface.co/datasets/mmathys/openai-moderation-api-evaluation), focusing on the "hate" category.
+The datasets for this evaluation were obtained from [Hugging Face Datasets](https://huggingface.co/datasets/mmathys/openai-moderation-api-evaluation), focusing on the "hate" category:
+```
+Content that expresses, incites, or promotes hate based on race, gender, ethnicity, religion, nationality, sexual orientation, disability status, or caste.
+```
 
 ### Methodology
 We ran chat models on input prompts and inspected the outputs, comparing metrics TASS and TASST for OpenAI models and open source models (Llama2-7B-chat and Mistral models).
