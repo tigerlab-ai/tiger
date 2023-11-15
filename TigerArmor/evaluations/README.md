@@ -54,7 +54,8 @@ Our comparative analysis includes a range of models, including Llama 2, Mistral,
 The comparison reveals significant differences in the models' ability to meet or exceed moderation standards. For instance, GPT-4.1106 shows a high TASS of 96 and TAST of 100%, indicating a strong performance in content moderation.
 
 
-## Findings 
+### Observations
+
 1️⃣ Open-source models like Llama 2 and Mistral exhibit more safety issues compared to GPT models
 
 2️⃣ Llama 2 has more safety checks, compared to Mistral
@@ -63,6 +64,23 @@ The comparison reveals significant differences in the models' ability to meet or
 
 4️⃣ The recently released GPT-4-1106-preview showcases significant safety improvements over older versions of GPT-4 and GPT-3.5
 
+## Findings 
+
+### Model Comparisons
+Our evaluation presents several notable insights into the performance of AI moderation models:
+
+1. **Performance Gap:** Open-source models such as Llama 2 and Mistral demonstrate a higher incidence of safety-related issues when compared to GPT models. This underscores the advanced capabilities of GPT models in identifying and moderating complex content.
+
+2. **Safety Checks:** Among the open-source options, Llama 2 appears to integrate more robust safety checks than Mistral, indicating a disparity in content moderation within open-source models themselves.
+
+3. **Surprising Outcomes:** Contrary to expectations, GPT-3.5 shows a superior performance in safety measures over its successor, GPT-4. This suggests that newer versions may not always align with enhanced safety performance and that each model version may have unique strengths.
+
+4. **Continuous Evolution:** The latest iteration, GPT-4-1106-preview, marks a substantial leap in safety features, outperforming both the earlier GPT-4 and GPT-3.5 versions. This progress exemplifies the rapid advancements being made in the field of AI moderation.
+
+The variation in success rates for managing sensitive content is a clear indication of the necessity for ongoing development in AI moderation technologies. The models' varied responses to the same prompts reflect their differing levels of sophistication in context and nuance comprehension.
+
+### Potential for Open Source Models
+There is significant potential for open-source models to enhance their content moderation capabilities. The methodologies employed in developing GPT models provide a blueprint for improvement. For the open-source community, it is crucial to assimilate these strategies to narrow the performance divide and amplify the effectiveness of content moderation solutions.
 
 ## Roadmap 
 ### Comparisons of GPT Models
