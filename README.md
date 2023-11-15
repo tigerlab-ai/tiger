@@ -133,9 +133,14 @@ To get your OpenAI API token, follow these steps:
 
 ## 📍 Roadmap
 - [x] Launch v0.0.1
-- [ ] Release TigerDA
-- [ ] Release TigerArmor
+- [x] Release TigerDA
+- [x] Release TigerArmor
 - [ ] Add additional model support in TigerTune
+- [ ] Add perturbation-based augmenters in TigerDA
+- [ ] Release GPT Text Completion Models comparisions
+- [ ] TigerLab Safety dataset crowd sourcing program
+- [ ] TigerLab AI Safety Leaderboard for LLMs
+- [ ] TigerLab Leaderboard for dataset contributors
 - [ ] VectorDB for TigerRAG
 - [ ] WebApp
 
