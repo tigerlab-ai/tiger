@@ -1,3 +1,5 @@
+# TigerArmor - AI safety toolkit
+
 ## Overview
 This project evaluates the performance of various LLM Chat models, with a focus on detecting and responding to content in sensitive categories such as hate speech.
 
