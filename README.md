@@ -63,7 +63,7 @@ https://github.com/tigerlab-ai/tiger/assets/148816206/4835b876-77e2-4483-9773-ea
 - **TigerRAG**: Use embeddings-based retrieval (EBR), retrieval-augmented generation (RAG), and generation-augmented retrieval (GAR) to fulfill queries. The demo used `BERT` for embedding, `FAISS` for indexing, `text-davinci-003` for generation.
 - **TigerTune**: Python SDK to fine-tune, make inference, and evaluate Text Generation models and Text Classification models. The notebook demo fine-tuned `Llama2` and `DistilBERT`.
 - **TigerDA**: Data Augmentation Toolkit. The generation-based augmenter supports data augmentation with fine-tuned (instruction-based) `GPT2`. `Top-k and Top-p Sampling` has been used for decoding. Perturbation-based augmenter coming soon!
-- **TigerArmor** AI safety Toolkit. Coming soon!
+- **TigerArmor** AI safety Toolkit. It contains metrics, datasets, evaluation tools for measure AI safety for LLMs, like Llama 2, GPT-4, Mistral, etc.
 
 ## 👨‍🚀 Prerequisites
 
