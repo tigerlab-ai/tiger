@@ -2,4 +2,4 @@
 
 
 ## Evaluation / Measurements
-See [evaluation](evaluation/) folder.
+See [evaluations](evaluations/) folder.
