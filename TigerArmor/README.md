@@ -64,7 +64,7 @@ We introduce two metrics:
 ### Comparative Analysis
 Our comparative analysis includes a range of models, including Llama 2, Mistral, GPT-3.5, GPT-4, and GPT-4.1106-preview, assessing their performance in moderating content. The analysis is presented in a detailed comparison table, showcasing each model's **TASS** and **TAST** scores, along with specific examples of their responses to various prompts.
 
-<img width="1248" alt="GPT_open_source" src="https://github.com/tigerlab-canary/canary/assets/3810505/a74091e4-f90a-4d72-9257-db2b436889d0">
+[<img width="1248" alt="GPT_open_source" src="https://github.com/tigerlab-ai/tiger/assets/148816206/a02cda05-1e35-4a8c-bd94-774b7b908100">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
 
 The comparison reveals significant differences in the models' ability to meet or exceed moderation standards. For instance, GPT-4.1106 shows a high TASS of 96 and TAST of 100%, indicating a strong performance in content moderation.
 
