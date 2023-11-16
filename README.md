@@ -31,7 +31,7 @@ In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRA
 We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI precision and safety.
 
 ## 🙌 TigerLab AI Safety Report
-[**AI Safety Metrics definition**](TigerArmor/evaluations#metrics)
+[**AI Safety Metrics definition**](TigerArmor/#rating-guideline)
 
 TigerTab AI Safety Score (**TASS**):
 * TASS provides a comprehensive evaluation of AI models' safety, consolidating both safety improvements and loss. This metric offers a holistic view of the model's safety performance, aiding in the identification of potential risks and areas for improvement.
