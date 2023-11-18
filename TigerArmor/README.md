@@ -1,4 +1,5 @@
 # TigerArmor - AI safety toolkit
+[Medium Post](https://medium.com/@tigerlab.ai/tigerarmor-ai-safety-toolkit-a-comprehensive-evaluation-of-llm-chat-models-93ccec021f83)
 
 ## Overview
 This project evaluates the performance of various LLM Chat models, with a focus on detecting and responding to content in sensitive categories such as hate speech.
