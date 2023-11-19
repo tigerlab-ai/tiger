@@ -5,7 +5,7 @@
 </div>
 <br/>
 <p align="center">
-  🐅🚀<em>LLM Toolkit: RAG + FineTune + ?</em>🚀🐅
+  🐅🚀<em>Framework for Trustworthy LLM development: RAG + FineTune + AI Safety Measurement</em>🚀🐅
 </p>
 <div align="center">
     <a href="https://discord.gg/GnwH2STv">
@@ -24,22 +24,15 @@
     </a>
 </div>
 
-A significant gap has arisen between general Large Language Models (LLMs) and the data stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in factual and safety domains, where their value lies not only in their generality but also in their specificity and uniqueness.
+## 🙌 AI Safety Report
 
-In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRAG, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create trustworthy AI models and language applications tailored to their specific needs.
+**Request Safety Evaluation for your LLMs & Chatbots at ⭐ [TigerLab.ai](https://www.tigerlab.ai/) ⭐**
 
-We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI precision and safety.
+Details can be found at: [Metrics Defination](TigerArmor/#rating-guideline)
 
-## 🙌 TigerLab AI Safety Report
-[**AI Safety Metrics definition**](TigerArmor/#rating-guideline)
+[<img width="1439" alt="TigerLab AI Safety Report" src="https://github.com/tigerlab-ai/tiger/assets/3810505/a20d6e9a-47b2-43e5-a501-92717e1650e1">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
 
-TigerTab AI Safety Score (**TASS**):
-* TASS provides a comprehensive evaluation of AI models' safety, consolidating both safety improvements and loss. This metric offers a holistic view of the model's safety performance, aiding in the identification of potential risks and areas for improvement.
 
-TigerTab AI Safety Test success % (**TAST**):
-* TAST represents the percentage of successful outcomes in AI safety tests. It measures the effectiveness of a model in adhering to safety standards and protocols, offering insights into its reliability and responsible AI behavior. A higher TAST percentage indicates a more secure and trustworthy AI system.
-
-[<img width="1436" alt="TigerLab AI Safety Report" src="https://github.com/tigerlab-ai/tiger/assets/148816206/81dab0f5-6b86-4d93-aea1-8e2882bd39d2">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
 
 
 ## ✨ Demo
@@ -169,3 +162,8 @@ In addition to the mentioned roadmap, we also maintain a backlog at https://gith
 }
 ```
 
+A significant gap has arisen between general Large Language Models (LLMs) and the data stores that provide them with contextual information. Bridging this gap is a crucial step towards grounding AI systems in factual and safety domains, where their value lies not only in their generality but also in their specificity and uniqueness.
+
+In pursuit of this goal, we are thrilled to introduce the Tiger toolkit (TigerRAG, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create trustworthy AI models and language applications tailored to their specific needs.
+
+We believe that our efforts will play a pivotal role in shaping the next phase of language modeling. This phase involves organizations customizing AI systems to align with their unique intellectual property and safety requirements, ushering in a new era of AI precision and safety.
