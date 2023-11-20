@@ -53,7 +53,7 @@ def generate_answer_with_rag_gpt3(question, context, openai_text_model):
 
 # GAR
 def generate_answer_with_gar_gpt3(question, context, openai_text_model, vectorstore):
-    # Retrivel Augmented Generation
+    # Generation Augmented Retrieval
     prompt = f"Expand on the query: {question}"
 
     # Generation using GPT-3
@@ -110,8 +110,8 @@ def main():
 
         # Example usage of GAR
         print("The following is GAR output for question: "+question)
-        print(generate_answer_with_rag_gpt3(
-            question, retrieved_context, 'text-davinci-003'), vectorstore)
+        print(generate_answer_with_gar_gpt3(
+            question, retrieved_context, 'text-davinci-003', vectorstore))
 
 
 if __name__ == "__main__":
