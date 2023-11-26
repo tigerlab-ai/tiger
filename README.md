@@ -148,7 +148,7 @@ In addition to the mentioned roadmap, we also maintain a backlog at https://gith
 </a>
 
 ## 🎲 Community
-- Join us on [Discord](https://discord.gg/GnwH2STv)
+- Join us on [Discord](https://discord.gg/Nm7VvNEG2a)
 
 ## 📝 Citation
 ```
