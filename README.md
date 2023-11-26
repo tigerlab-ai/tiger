@@ -8,7 +8,7 @@
   🐅🚀<em>Framework for Trustworthy LLM development: RAG + FineTune + AI Safety Measurement</em>🚀🐅
 </p>
 <div align="center">
-    <a href="https://discord.gg/GnwH2STv">
+    <a href="https://discord.gg/Nm7VvNEG2a">
     <img src="https://img.shields.io/badge/discord-join%20chat-blue.svg?style=for-the-badge" alt="Join our Discord" height="20">
     </a>
     <a href="https://twitter.com/TigerLabAI">
