@@ -40,7 +40,7 @@ class TextGenerationDataAugmentationEngine(BaseDataAugmentationEngine):
         text = f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.
 
                 ### Instruction:
-                {seed}
+                Help me augment the following query: {seed}
 
                 ### Response:"""
         return text
