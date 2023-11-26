@@ -60,7 +60,7 @@ augmentation_engine.augment(
 
 ## Demo
 ```shell
-python3 examples/text_generation_augmenter_example.py 
+python3 examples/text_generation_augmenter_example.py
 ```
 
 
