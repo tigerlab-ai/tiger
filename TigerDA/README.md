@@ -5,7 +5,7 @@ A package used to augment datasets.
 There are many data augmentation methods. This toolkit provides both pertubation-based data augmentation and generation-based data augmentation.
 
 ### Generation-based data augmentation
-For generation-based data augmentation, there are normally 2 steps: 
+For generation-based data augmentation, there are normally 2 steps:
 1. Fine tune the model. It is to make the model generate output with a certain text structure or focus on one theme. Normally it is not enough to just use the pre-trained model available in Transformers. This step is covered in TigerTune package.
 2. Text generation with the fine tuned model. This is covered in this package.
 
@@ -18,7 +18,7 @@ pip install --upgrade -e .
 ```
 This will install the TigerDA repo and all necessary dependencies.
 
-On an non-intel Mac you may need to downgrade `transformers` library: `pip install transformers==4.30`.
+On a non-intel Mac you may need to downgrade `transformers` library: `pip install transformers==4.30`.
 
 ## Data Setup
 If you do not have a dataset, you can start with ours toy data in the tigerda/datasets folder.
@@ -27,14 +27,14 @@ The setup for augmentation can be effortlessly executed provided you possess a c
 
 ## Usage
 Initialize text generation augmenter. We use a GPT2 model finetuned on the open-instruct-v1 dataset as an example.
-```shell
+```python
 augmentation_engine = TextGenerationDataAugmentationEngine(
     model_id="vicgalle/gpt2-open-instruct-v1",
 )
 ```
 
 Generate with a seed dataset
-```shell
+```python
 augmentation_engine.augment(
     seed_dataset="datasets/seed_dataset.csv",
     number_of_rows=1,
@@ -43,8 +43,8 @@ augmentation_engine.augment(
 )
 ```
 
-Yo with pass in optional formatting_func too, for different generation models.
-```shell
+You can pass in optional formatting_func too, for different generation models.
+```python
 def formatting_func(seed):
     text = f"""Help me augment the following query: {seed}"""
     return text
@@ -60,7 +60,7 @@ augmentation_engine.augment(
 
 ## Demo
 ```shell
-python3 examples/text_generation_augmenter_example.py 
+python3 examples/text_generation_augmenter_example.py
 ```
 
 
