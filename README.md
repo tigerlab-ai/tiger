@@ -30,9 +30,7 @@
 
 Details can be found at: [Metrics Defination](TigerArmor/#rating-guideline)
 
-[<img width="1439" alt="TigerLab AI Safety Report" src="https://github.com/tigerlab-ai/tiger/assets/3810505/a20d6e9a-47b2-43e5-a501-92717e1650e1">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
-
-
+[<img width="1439" alt="tigerlab_ai_safe_report" src="https://github.com/tigerlab-ai/tiger/assets/3810505/2daeedbd-e431-4135-91cf-0cc868019583">](https://airtable.com/app8zluNDCNogk4Ld/shrYRW3r0gL4DgMuW/tblpLubmd8cFsbmp5)
 
 
 ## ✨ Demo
