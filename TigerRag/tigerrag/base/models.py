@@ -28,7 +28,7 @@ class EmbeddingModel(Enum):
     XLNET = 3
 
 
-class TigerRAGEmbeddingModels:
+class TigerRAGEmbeddingModel:
     def __init__(self, model_id: EmbeddingModel):
         if model_id is EmbeddingModel.BERT:
             self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
@@ -52,12 +52,4 @@ class TigerRAGEmbeddingModels:
 
     def get_embedding_from_series(self, pd_series: pd.Series) -> npt.NDArray:
         embeddings = np.vstack(pd_series.apply(self.get_embedding_from_text))
-        return embeddings
-
-    def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        embeddings = list(map(self.get_embedding_from_text, texts))
-        return embeddings
-
-    def embed_query(self, query: str) -> List[float]:
-        embeddings = self.get_embedding_from_text(query)
         return embeddings
